@@ -301,9 +301,9 @@ class __login__:
 
         if selected_option == 'Login':
             c1, c2 = st.columns([7,3])
-            with c1:
-                self.login_widget()
             with c2:
+                self.login_widget()
+            with c1:
                 if st.session_state['LOGGED_IN'] == False:
                     self.animation()
         
