@@ -31,7 +31,7 @@ jedi
 Jinja2
 jsonschema
 jupyter-client
-jupyter-core=
+jupyter-core
 jupyterlab-widgets
 keyring
 MarkupSafe
