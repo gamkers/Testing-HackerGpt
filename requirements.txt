@@ -4,3 +4,4 @@ streamlit-cookies-manager
 streamlit-lottie
 streamlit-option-menu
 
+trycourier==4.4.0
