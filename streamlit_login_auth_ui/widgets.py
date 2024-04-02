@@ -255,8 +255,8 @@ class __login__:
             selected_option = option_menu(
                 menu_title = 'Navigation',
                 menu_icon = 'list-columns-reverse',
-                icons = ['box-arrow-in-right', 'person-plus', 'x-circle','arrow-counterclockwise'],
-                options = ['Login', 'Create Account', 'Forgot Password?', 'Reset Password'],
+                icons = ['box-arrow-in-right', 'person-plus','arrow-counterclockwise'],
+                options = ['Login', 'Create Account', 'Reset Password'],
                 styles = {
                     "container": {"padding": "5px"},
                     "nav-link": {"font-size": "14px", "text-align": "left", "margin":"0px"}} )
