@@ -1,4 +1,6 @@
-﻿altair==4.2.0
+google-generativeai
+langchain_google_genai
+altair==4.2.0
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
 asttokens==2.0.8
@@ -90,5 +92,4 @@ webencodings==0.5.1
 widgetsnbextension==4.0.2
 wincertstore==0.2
 zipp==3.8.1
-google-generativeai
-langchain_google_genai==0.1.8
+
