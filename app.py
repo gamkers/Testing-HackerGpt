@@ -197,7 +197,7 @@ if LOGGED_IN == True:
       
       else:
            with st.chat_message("BOT"):
-             with st.spinner('Wait for it...'):
+             with st.spinner('Processing...'):
                 if st.session_state["model"] == 'Code':
                     data = aicode(command)
                 elif st.session_state["model"] == 'Tools':
