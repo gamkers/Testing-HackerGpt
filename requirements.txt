@@ -91,4 +91,4 @@ widgetsnbextension==4.0.2
 wincertstore==0.2
 zipp==3.8.1
 google-generativeai
-langchain_google_genai=0.1.8
+langchain_google_genai==0.1.8
