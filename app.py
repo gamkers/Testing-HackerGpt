@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 genai.configure(api_key=st.secrets["gemini_api"])
 
 __login__obj = __login__(auth_token = "courier_auth_token",
-                    company_name = "Shims",
+                    company_name = "Gamkers",
                     width = 400, height = 350,
                     logout_button_name = 'Logout', hide_menu_bool = False,
                     hide_footer_bool = False,
