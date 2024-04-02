@@ -173,7 +173,7 @@ if LOGGED_IN == True:
   <div class="gradient-text">GamkersGPT</div>
   """
   
-  st.markdown(gradient_text_html, unsafe_allow_html=True)
+  #st.markdown(gradient_text_html, unsafe_allow_html=True)
   st.caption("AI Integrity: Ethical Hacking, Elevated - Developed by GAMKERS")
   
   model = st.radio(
