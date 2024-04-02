@@ -46,7 +46,7 @@ Pillow==9.2.0
 pkginfo==1.8.3
 platformdirs==2.5.1
 prompt-toolkit==3.0.30
-protobuf==3.20.1
+protobuf==3.20.2
 psutil==5.9.1
 pure-eval==0.2.2
 pyarrow==9.0.0
@@ -91,3 +91,5 @@ webencodings==0.5.1
 widgetsnbextension==4.0.2
 wincertstore==0.2
 zipp==3.8.1
+google-generativeai
+langchain_google_genai
