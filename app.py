@@ -18,7 +18,7 @@ LOGGED_IN= __login__obj.build_login_ui()
 username= __login__obj.get_username()
 
 if LOGGED_IN == True:
-  st.set_page_config(page_title="HACKER-GPT", page_icon=":tada:", layout='wide')
+  
   page_bg_img = f"""
   <style>
   [data-testid="stAppViewContainer"] > .main {{
