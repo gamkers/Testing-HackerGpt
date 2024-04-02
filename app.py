@@ -7,7 +7,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 genai.configure(api_key=st.secrets["gemini_api"])
 
-__login__obj = __login__(auth_token = "courier_auth_token",
+__login__obj = __login__(auth_token = "MDQ3MDE1ODMtMTRjMy00ZTdlLWE5ZDYtMmY4NDA5MDQ5NmE3",
                     company_name = "Gamkers",
                     width = 400, height = 350,
                     logout_button_name = 'Logout', hide_menu_bool = False,
