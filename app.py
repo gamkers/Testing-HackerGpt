@@ -50,7 +50,7 @@ gradient_text_html = """
   <div class="gradient-text">GamkersGPT</div>
   """
   
-  st.markdown(gradient_text_html, unsafe_allow_html=True)
+st.markdown(gradient_text_html, unsafe_allow_html=True)
 genai.configure(api_key=st.secrets["gemini_api"])
 
 __login__obj = __login__(auth_token = "PK_PROD_JH8MQNVGSYM8GQGC9B423",
