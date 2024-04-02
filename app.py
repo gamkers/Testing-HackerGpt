@@ -51,6 +51,9 @@ gradient_text_html = """
   """
   
 st.markdown(gradient_text_html, unsafe_allow_html=True)
+st.caption("AI Integrity: Ethical Hacking, Elevated - Developed by GAMKERS")
+  
+
 genai.configure(api_key=st.secrets["gemini_api"])
 
 __login__obj = __login__(auth_token = "PK_PROD_JH8MQNVGSYM8GQGC9B423",
@@ -174,8 +177,7 @@ if LOGGED_IN == True:
   """
   
   #st.markdown(gradient_text_html, unsafe_allow_html=True)
-  st.caption("AI Integrity: Ethical Hacking, Elevated - Developed by GAMKERS")
-  
+
   model = st.radio(
       "",
       options=["Code", "Tools", "Instructions"],
