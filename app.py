@@ -47,7 +47,7 @@ gradient_text_html = """
       font-size: 3em;
   }
   </style>
-  <div class="gradient-text">___GamkersGPT___</div>
+  <div class="gradient-text">‎ GamkersGPT</div>
   """
   
 st.markdown(gradient_text_html, unsafe_allow_html=True)
