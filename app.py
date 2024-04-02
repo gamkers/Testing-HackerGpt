@@ -33,6 +33,24 @@ page_bg_img = """
   
   
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
+
+gradient_text_html = """
+  <style>
+  .gradient-text {
+      font-weight: bold;
+      background: -webkit-linear-gradient(left, red, orange);
+      background: linear-gradient(to right, red, orange);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline;
+      font-size: 3em;
+  }
+  </style>
+  <div class="gradient-text">GamkersGPT</div>
+  """
+  
+  st.markdown(gradient_text_html, unsafe_allow_html=True)
 genai.configure(api_key=st.secrets["gemini_api"])
 
 __login__obj = __login__(auth_token = "PK_PROD_JH8MQNVGSYM8GQGC9B423",
