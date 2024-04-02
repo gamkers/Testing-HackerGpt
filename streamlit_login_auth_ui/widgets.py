@@ -253,7 +253,7 @@ class __login__:
         main_page_sidebar = st.sidebar.empty()
         with main_page_sidebar:
             selected_option = option_menu(
-                menu_title = 'Navigation',
+                menu_title = 'Gets Started',
                 menu_icon = 'list-columns-reverse',
                 icons = ['box-arrow-in-right', 'person-plus','arrow-counterclockwise'],
                 options = ['Login', 'Create Account', 'Reset Password'],
