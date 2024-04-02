@@ -64,12 +64,13 @@ __login__obj = __login__(auth_token = "PK_PROD_JH8MQNVGSYM8GQGC9B423",
                     lottie_url = 'https://lottie.host/9b96bd33-0590-4571-94fb-83d05b37815b/0mUKfIZ1HP.json')
 
 LOGGED_IN= __login__obj.build_login_ui()
-username= __login__obj.get_username()
-
-st.write("By accessing our platform, users consent to engage in Ethical Hacking activities, strictly limited to legally authorized and defensive purposes. Unauthorized access is prohibited, and users must comply with all relevant laws and regulations. Any malicious activities, interference, or violation of intellectual property rights are strictly forbidden. Users retain ownership of submitted content but grant us permission to use it for platform purposes. Users agree to indemnify us from any claims arising from their use of the platform. These terms may be updated without notice, and users agree to be bound by the revised terms. ")
+st.write("By accessing our platform, users consent to engage in Ethical Hacking activities, strictly limited to legally authorized and defensive purposes. Unauthorized access is prohibited, and users must comply with all relevant laws and regulations. Any malicious activities, interference, or violation of intellectual property rights are strictly forbidden. Users retain ownership of submitted content but grant us permission to use it for platform purposes. These terms may be updated without notice, and users agree to be bound by the revised terms. ")
 agree = st.checkbox('I agree')
 if agree:
     st.write('Great!')
+username= __login__obj.get_username()
+
+
   
 if LOGGED_IN == True:
   
