@@ -9,7 +9,7 @@ genai.configure(api_key=st.secrets["gemini_api"])
 
 __login__obj = __login__(auth_token = "courier_auth_token",
                     company_name = "Shims",
-                    width = 400, height = 250,
+                    width = 400, height = 350,
                     logout_button_name = 'Logout', hide_menu_bool = False,
                     hide_footer_bool = False,
                     lottie_url = 'https://lottie.host/9b96bd33-0590-4571-94fb-83d05b37815b/0mUKfIZ1HP.json')
