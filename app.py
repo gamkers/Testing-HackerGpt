@@ -12,7 +12,7 @@ __login__obj = __login__(auth_token = "courier_auth_token",
                     width = 400, height = 250,
                     logout_button_name = 'Logout', hide_menu_bool = False,
                     hide_footer_bool = False,
-                    lottie_url = 'https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json')
+                    lottie_url = 'https://lottie.host/e2dbc50e-d456-4cd3-9afe-1a591f119058/HIbmWrf2nV.json')
 
 LOGGED_IN= __login__obj.build_login_ui()
 username= __login__obj.get_username()
