@@ -14,8 +14,9 @@ def check_usr_pass(username: str, password: str) -> bool:
     """
     with open("_secret_auth_.json", "r") as auth_json:
         authorized_user_data = json.load(auth_json)
-    print(authorized_user_data)
+    
     for registered_user in authorized_user_data:
+        print(registered_user)
         if registered_user['username'] == username:
             try:
                 passwd_verification_bool = ph.verify(registered_user['password'], password)
