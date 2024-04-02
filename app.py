@@ -206,7 +206,8 @@ if LOGGED_IN == True:
               data = data.replace("Decrypted",'')
               data = data.replace("Base64",'')
               data = data.replace("base64",'')
-              st.write(data)
+              with st.spinner('Wait for it...'):
+                st.write(data)
               st.session_state.message.append({"role":"BOT","message":data})
            
   
