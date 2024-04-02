@@ -65,7 +65,11 @@ __login__obj = __login__(auth_token = "PK_PROD_JH8MQNVGSYM8GQGC9B423",
 
 LOGGED_IN= __login__obj.build_login_ui()
 username= __login__obj.get_username()
+agree = st.checkbox('I agree')
 
+if agree:
+    st.write('Great!')
+  
 if LOGGED_IN == True:
   
   page_bg_img = f"""
