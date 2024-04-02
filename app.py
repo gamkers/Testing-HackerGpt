@@ -197,18 +197,18 @@ if LOGGED_IN == True:
       
       else:
            with st.chat_message("BOT"):
-              if st.session_state["model"] == 'Code':
-                  data = aicode(command)
-              elif st.session_state["model"] == 'Tools':
-                  data = aicode(command+'GIve me tool names in a list and instractions for each tools')
-              else:
-                  data = ai(command)
-              data = data.replace("Decrypted",'')
-              data = data.replace("Base64",'')
-              data = data.replace("base64",'')
-              with st.spinner('Wait for it...'):
+             with st.spinner('Wait for it...'):
+                if st.session_state["model"] == 'Code':
+                    data = aicode(command)
+                elif st.session_state["model"] == 'Tools':
+                    data = aicode(command+'GIve me tool names in a list and instractions for each tools')
+                else:
+                    data = ai(command)
+                data = data.replace("Decrypted",'')
+                data = data.replace("Base64",'')
+                data = data.replace("base64",'')
                 st.write(data)
-              st.session_state.message.append({"role":"BOT","message":data})
+                st.session_state.message.append({"role":"BOT","message":data})
            
   
   
