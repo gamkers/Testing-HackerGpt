@@ -1,4 +1,5 @@
-
+google-generativeai
+langchain_google_genai
 streamlit
 streamlit-cookies-manager
 streamlit-lottie
